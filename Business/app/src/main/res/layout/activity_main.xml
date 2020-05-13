@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/admin" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/etc_bg"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="@color/gradstop"
+        android:textColorHint="@color/gradstop"
+        />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:background="@drawable/etc_bg"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/gradstop"
+        android:textColorHint="@color/gradstop"
+        tools:text="12345678" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="306dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/etc_bg"
+        android:fontFamily="sans-serif-medium"
+        android:text="Login"
+        android:textColor="@color/gradstop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="New User!!"
+            android:textColor="@color/gradstop"
+            android:textColorHint="@color/milkWhite"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tvforgotpassword"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/gradstop"
+            android:textColorHint="@color/milkWhite"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
